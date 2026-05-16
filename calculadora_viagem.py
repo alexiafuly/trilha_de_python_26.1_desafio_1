@@ -41,7 +41,7 @@ else:
   Orçamento_impossível = True
 
 ## Status final da viagem -
-Viável = ()
+viável = ()
 if custo_total < orçamento and qtd_dias > 0:
   viável = True
 else:
